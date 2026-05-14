@@ -1,5 +1,5 @@
 <template>
-    <p class="fs-1">Hello World</p>
+
 
 </template>
 
