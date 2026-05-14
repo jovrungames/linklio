@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+// backend/next.config.ts
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+	// Vercel için standalone gerekmez, otomatik halleder
 };
 
 export default nextConfig;
