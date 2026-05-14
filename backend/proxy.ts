@@ -7,7 +7,7 @@ const isAllowedOrigin = (origin: string) => {
 	return false;
 };
 
-export function middleware(request: NextRequest) {
+export default function proxy(request: NextRequest) {
 	const origin = request.headers.get('origin') || '';
 	const response = NextResponse.next();
 
