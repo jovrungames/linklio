@@ -1,0 +1,98 @@
+/*-----------------------------------------------------------------------------------
+Copyright (c) 2026
+Theme Name:  -
+Theme URI:   -
+Description: -
+Author:      - Adem Duran -
+Author URI:  - https://bionluk.com/adeemdrn - https://ademduran.com - @frontend.adem -
+Version:  - 1.02.1 -
+-----------------------------------------------------------------------------------*/
+
+/*==================================================
+===| MD & LG - Tablet & Small Desktop (992px - 1399px)
+===| Bootstrap: col-lg
+===| iPad Pro landscape, küçük laptoplar
+===================================================*/
+@media (min-width: 992px) and (max-width: 1399.98px) {}
+
+
+/*==================================================
+===| XL & XXL - Desktop & Large Desktop (1400px+)
+===| Bootstrap: col-xl, col-xxl
+===| Full HD ve üzeri ekranlar
+===================================================*/
+@media (min-width: 1400px) {}
+
+
+/*==================================================
+===| SADECE MOBİL (max-width: 991px)
+===| Tablet dahil tüm küçük ekranlar
+===================================================*/
+@media (max-width: 991.98px) {
+
+    /* Hamburger menu aktif */
+    /* Stack layout */
+    /* Touch-friendly buttons */
+    :root {
+        --base_spacing: clamp(10px, 1.2vw, 16px);
+        --font_size: clamp(10px, 1vw, 15px);
+    }
+}
+
+
+/*==================================================
+===| EXTRA: Çok Küçük Mobil (isteğe bağlı)
+===| iPhone SE, eski Android'ler
+===================================================*/
+@media (max-width: 575.98px) {
+
+    /* Çok küçük ekranlar için özel durumlar */
+    /* Daha küçük font'lar */
+    /* Daha az padding */
+
+    :root {
+        --base_spacing: clamp(10px, 1.2vw, 16px);
+        --font_size: clamp(10px, 1vw, 15px);
+    }
+}
+
+
+/*==================================================
+===| EXTRA: Tablet Only (isteğe bağlı)
+===| Sadece tablet boyutları
+===================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Sadece tablet için */
+    :root {
+        --base_spacing: clamp(10px, 1.2vw, 16px);
+        --font_size: clamp(10px, 1vw, 15px);
+    }
+}
+
+
+/*==================================================
+===| EXTRA: Ultra Wide Desktop (isteğe bağlı)
+===| 4K, Ultra wide monitorler
+===================================================*/
+@media (min-width: 1920px) {
+
+    /* Container max-width limiti */
+    /* Çok büyük ekranlarda içerik sınırlama */
+
+}
+
+
+/*==================================================
+===| ORIENTATION QUERIES
+===| Telefon yatay/dikey
+===================================================*/
+
+/* Mobil yatay mod */
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+    /* Mobil yatay tutulduğunda */
+    /* Navbar daha kısa */
+    /* Hero section daha az padding */
+
+}
