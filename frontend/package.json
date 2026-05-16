@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@tabler/icons-vue": "^3.44.0",
     "bootstrap": "^5.3.8",
     "vue": "^3.5.32",
     "vue-router": "^5.0.4"
